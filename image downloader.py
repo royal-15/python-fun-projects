@@ -16,9 +16,7 @@ class MainWindow(CTk):
         # print(font.families())
 
         # Main Heading
-        CTkLabel(self, text="Image Downloader By Rajat", font=("Death Note", 40)).pack(
-            pady=25
-        )
+        CTkLabel(self, text="Image Downloader", font=("classic", 35)).pack(pady=25)
 
         # Entries Frame
         self.entries_frame = self.create_entries()
@@ -126,7 +124,7 @@ class MainWindow(CTk):
             else:
                 try:
                     width = int(self.width_entry.get())
-                    height = int(self.heigth_entry.get())
+                    height = int(self.height_entry.get())
                     # print(width, height)
                 except:
                     messagebox.showwarning(
