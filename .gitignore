@@ -1,3 +1,8 @@
+*.ini
+new.png
+new1.png
+new2.png
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
